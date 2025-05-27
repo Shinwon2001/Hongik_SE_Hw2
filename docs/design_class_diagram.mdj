@@ -177,7 +177,7 @@
 											"top": 658,
 											"width": 128.88623046875,
 											"height": 13,
-											"text": "+inputGuestInfo()",
+											"text": "+inputSignUpInfo()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -13791,6 +13791,90 @@
 							"headQualifiersCompartment": {
 								"$ref": "AAAAAAGXD6Z4yF/4Rj8="
 							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGXD8c6u44625A=",
+							"_parent": {
+								"$ref": "AAAAAAGXCDHkmVkHGnU="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1264,
+							"top": 912,
+							"width": 17.22998046875,
+							"height": 25,
+							"text": "1"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGXD8dHvKFHxhg=",
+							"_parent": {
+								"$ref": "AAAAAAGXCDHkmVkHGnU="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1256,
+							"top": 968,
+							"width": 29.5126953125,
+							"height": 25,
+							"text": "0..*"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGXD8eNLAcNKeM=",
+							"_parent": {
+								"$ref": "AAAAAAGXCDHkmVkHGnU="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1496,
+							"top": 1400,
+							"width": 17.22998046875,
+							"height": 25,
+							"text": "1"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGXD8efYxnGM38=",
+							"_parent": {
+								"$ref": "AAAAAAGXCDHkmVkHGnU="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1392,
+							"top": 1464,
+							"width": 29.5126953125,
+							"height": 25,
+							"text": "0..*"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGXD8e4sDdT8LY=",
+							"_parent": {
+								"$ref": "AAAAAAGXCDHkmVkHGnU="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1208,
+							"top": 1376,
+							"width": 17.22998046875,
+							"height": 25,
+							"text": "1"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGXD8fGMkPQxBY=",
+							"_parent": {
+								"$ref": "AAAAAAGXCDHkmVkHGnU="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 1200,
+							"top": 1440,
+							"width": 29.5126953125,
+							"height": 25,
+							"text": "0..*"
 						}
 					]
 				},
@@ -13879,7 +13963,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGXDlMzFmGVAeo="
 							},
-							"name": "inputGuestInfo"
+							"name": "inputSignUpInfo"
 						}
 					]
 				},

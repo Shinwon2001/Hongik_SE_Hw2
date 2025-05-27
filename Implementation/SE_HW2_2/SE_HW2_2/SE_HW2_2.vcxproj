@@ -127,7 +127,51 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddBicycle.cpp" />
+    <ClCompile Include="AddBicycleUI.cpp" />
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="Bicycle.cpp" />
+    <ClCompile Include="BicycleCollection.cpp" />
+    <ClCompile Include="BicycleList.cpp" />
+    <ClCompile Include="Exit.cpp" />
+    <ClCompile Include="ExitUI.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Member.cpp" />
+    <ClCompile Include="MemberList.cpp" />
+    <ClCompile Include="RentalBicycleList.cpp" />
+    <ClCompile Include="RentalBicycleListUI.cpp" />
+    <ClCompile Include="Rentbicycle.cpp" />
+    <ClCompile Include="RentBicycleUI.cpp" />
+    <ClCompile Include="SignIn.cpp" />
+    <ClCompile Include="SignInUI.cpp" />
+    <ClCompile Include="SignOut.cpp" />
+    <ClCompile Include="SignOutUI.cpp" />
+    <ClCompile Include="SignUp.cpp" />
+    <ClCompile Include="SignUpUI.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddBicycle.h" />
+    <ClInclude Include="AddBicycleUI.h" />
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="Bicycle.h" />
+    <ClInclude Include="BicycleCollection.h" />
+    <ClInclude Include="BicycleList.h" />
+    <ClInclude Include="Exit.h" />
+    <ClInclude Include="ExitUI.h" />
+    <ClInclude Include="Member.h" />
+    <ClInclude Include="MemberList.h" />
+    <ClInclude Include="RentalBicycleList.h" />
+    <ClInclude Include="RentalBicycleListUI.h" />
+    <ClInclude Include="Rentbicycle.h" />
+    <ClInclude Include="RentBicycleUI.h" />
+    <ClInclude Include="SignIn.h" />
+    <ClInclude Include="SignInUI.h" />
+    <ClInclude Include="SignOut.h" />
+    <ClInclude Include="SignOutUI.h" />
+    <ClInclude Include="SignUp.h" />
+    <ClInclude Include="SignUpUI.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
