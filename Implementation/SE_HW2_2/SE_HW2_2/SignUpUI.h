@@ -1,14 +1,21 @@
 #pragma once
+#include "SignUp.h"
+#include <iostream>
+#include <string>
+using namespace std;
+
+class SignUp;
+
 class SignUpUI
 {
 private:
-	SignUp su;
-	String signupID;
-	String signupPW;
-	String signupMemberPhNo;
+	SignUp* su;
+	string signupID;
+	string signupPW;
+	string signupMemberPhNo;
 public:
-	SignUpUI(SignUp suControl);
+	SignUpUI(SignUp* suControl);
 	SignUp createNewMember();
-	getSignupInfo();
+	void getSignupInfo();
 };
 

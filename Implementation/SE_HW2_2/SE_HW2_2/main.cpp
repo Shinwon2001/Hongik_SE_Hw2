@@ -4,7 +4,13 @@
 #include <fstream>  //파일 입출력 위한 헤더
 using namespace std;
 #include "AddBicycle.h"
-#include "AddBicycleUI.h"
+#include "Exit.h"
+#include "RentalBicycleList.h"
+#include "Rentbicycle.h"
+#include "SignIn.h"
+#include "SignOut.h"
+#include "SignUp.h"
+
 
 // 상수 선언
 #define MAX_STRING 32
@@ -48,9 +54,7 @@ int main()
             case 1:   // "1.1. 회원가입" 메뉴 부분
             {
                 // 해당 기능 수행 
-                SignUp signup(in_fp, out_fp);
-                signup.inputGuestInfo();
-
+                //SignUp signup(in_fp, out_fp);
                 break;
             }
             }
@@ -63,15 +67,13 @@ int main()
             case 1:   // "2.1. 로그인" 메뉴 부분
             {
                 // 해당 기능 수행 
-                SignIn signin(in_fp, out_fp);
-                signin.inputSignIn();
-
+                //SignIn signin(in_fp, out_fp);
                 break;
             }
             case 2:    // "2.2. 로그아웃" 메뉴 부분
             {
-                SignOut signout(in_fp, out_fp);
-                signout.inputSignOut();
+                // SignOut signout(in_fp, out_fp);
+                //signout.inputSignOut();
                 break;
             }
             }
@@ -81,13 +83,12 @@ int main()
         {
             switch (menu_level_2)
             {
-            case 1:   // "3.1. 자전거 등록" 메뉴 부분
-            {
-                // 해당 기능 수행 
-                AddBicycle addbicycle(in_fp, out_fp);
-                addbicycle.inputGuestInfo();
-                break;
-            }
+                case 1:   // "3.1. 자전거 등록" 메뉴 부분
+                {
+                    // 해당 기능 수행 
+                    AddBicycle addbicycle(in_fp, out_fp);
+                    break;
+                }
             }
             break;
         }
@@ -95,15 +96,14 @@ int main()
         {
             switch (menu_level_2)
             {
-            case 1:   // "4.1. 자전거 대여" 메뉴 부분
-            {
-                // 해당 기능 수행 
-                RentBicycle rentbicycle(in_fp, out_fp);
-                rentbicycle.inputRentBicycle();
+                case 1:   // "4.1. 자전거 대여" 메뉴 부분
+                {
+                    // 해당 기능 수행 
+                    //RentBicycle rentbicycle(in_fp, out_fp);
 
 
-                break;
-            }
+                    break;
+                }
             }
             break;
         }
@@ -111,14 +111,14 @@ int main()
         {
             switch (menu_level_2)
             {
-            case 1:   // "5.1. 자전거 대여 리스트" 메뉴 부분
-            {
-                // 해당 기능 수행 
-                RentalBicycleList rentalbicyclelist;
-                rentalbicyclelist.inputRentalBicycleList();
+                case 1:   // "5.1. 자전거 대여 리스트" 메뉴 부분
+                {
+                    // 해당 기능 수행 
+                    //RentalBicycleList rentalbicyclelist;
+                    //rentalbicyclelist.inputRentalBicycleList();
 
-                break;
-            }
+                    break;
+                }
             }
             break;
         }
@@ -126,23 +126,19 @@ int main()
         {
             switch (menu_level_2)
             {
-            case 1:   // "6.1. 종료" 메뉴 부분
-            {
-                //뭔가 구현?
-                is_program_exit = 1;
-                break;
-            }
+                case 1:   // "6.1. 종료" 메뉴 부분
+                {
+                
+                    is_program_exit = 1;
+                    break;
+                }
             }
             break;
         }
 
-        //뭔가를 구현할 게 더 있는지 확인
-
         }
-        is_program_exit = 1; //이거 언젠가 빼야 함.
     }
 
-    //뭔가 여기서 더 할 게 있는지 확인
 
 
     out_fp.close();

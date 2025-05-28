@@ -140,7 +140,7 @@
     <ClCompile Include="MemberList.cpp" />
     <ClCompile Include="RentalBicycleList.cpp" />
     <ClCompile Include="RentalBicycleListUI.cpp" />
-    <ClCompile Include="Rentbicycle.cpp" />
+    <ClCompile Include="RentBicycle.cpp" />
     <ClCompile Include="RentBicycleUI.cpp" />
     <ClCompile Include="SignIn.cpp" />
     <ClCompile Include="SignInUI.cpp" />
@@ -163,7 +163,7 @@
     <ClInclude Include="MemberList.h" />
     <ClInclude Include="RentalBicycleList.h" />
     <ClInclude Include="RentalBicycleListUI.h" />
-    <ClInclude Include="Rentbicycle.h" />
+    <ClInclude Include="RentBicycle.h" />
     <ClInclude Include="RentBicycleUI.h" />
     <ClInclude Include="SignIn.h" />
     <ClInclude Include="SignInUI.h" />

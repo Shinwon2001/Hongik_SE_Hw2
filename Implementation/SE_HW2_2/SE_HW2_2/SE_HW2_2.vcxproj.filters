@@ -42,7 +42,7 @@
     <ClCompile Include="AddBicycleUI.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Rentbicycle.cpp">
+    <ClCompile Include="RentBicycle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="RentBicycleUI.cpp">
@@ -107,7 +107,7 @@
     <ClInclude Include="AddBicycleUI.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Rentbicycle.h">
+    <ClInclude Include="RentBicycle.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="RentBicycleUI.h">

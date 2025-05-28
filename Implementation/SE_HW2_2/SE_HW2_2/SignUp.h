@@ -1,5 +1,7 @@
 #pragma once
-#include "SignUp.h"
+#include "SignUpUI.h"
+#include "Member.h"
+#include "MemberList.h"
 
 class SignUpUI;
 
